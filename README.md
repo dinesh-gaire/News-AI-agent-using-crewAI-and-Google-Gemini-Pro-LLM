@@ -36,7 +36,6 @@ The News AI Agent is an innovative application designed to explore and report on
 3. **Install the required packages**:
 
     ```bash
-    Copy code
     pip install -r requirements.txt
     ```
 4. **Set up environment variables**: Create a .env file in the root directory and add your API keys:
@@ -48,14 +47,12 @@ The News AI Agent is an innovative application designed to explore and report on
 ## Usage
 To execute the News AI agent, run the following command:
 
-    ```bash
     python crew.py
-    ```
+
 You can specify the topic of interest by modifying the inputs parameter in the script. For example, to explore AI in healthcare:
 
-    ```python
     result = crew.kickoff(inputs={'topic': 'AI in healthcare'})
-    ```
+    
 ## Writing Task
 The writing task is defined in tasks.py and involves composing an insightful article on the specified topic. The expected output is a four-paragraph article formatted as markdown, focusing on the latest trends and their impact on the industry.
 
